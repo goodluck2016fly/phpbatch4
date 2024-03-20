@@ -5,7 +5,7 @@
 $words = "Save Myanmer";
 echo strlen($words); //12
 
-abcdef
+
 // => str_word_count(string) Function 
 // => str_word_count(string,return) Function 
 
@@ -22,22 +22,21 @@ echo "<pre>".print_r(str_word_count($text,1),true),"</pre>";;  // <pre>Array ( [
 echo "<pre>".print_r(str_word_count($text,2),true),"</pre>";;  // <pre>Array ( [0] => Save [5] => Myanmer [13] => Country) </pre>
 
 
-
-// ucwords(string) Function 
-// ucwords(string,delimiters) Function 
+// => ucwords(string) Function 
+// => ucwords(string,delimiters) Function 
 
 
 $country = "welcome to myanmar country,i live in yangon";
 echo ucwords($country); //Welcome To Myanmar Country,i Live In Yangon
-echo ucwords($country,","); //
+echo ucwords($country,","); //Welcome to myanmar country,I live in yangon
 
 
 // => ucfirst(string) Function
-
+$message = "welcome to yangon,i live in tamwe";
+echo ucfirst($message); //Welcome to yangon,i live in tamwe
 
 
 // => lcfunction(string) Function
-
 $msg = "Welcome to Yangon.I live in tamwe";
 echo lcfirst($msg); // welcome to Yangon.I live in tamwe 
 

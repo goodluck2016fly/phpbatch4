@@ -57,10 +57,10 @@ echo chunk_split($letters,3,"-") // Mya-nma-r C-oun-try-
 
 // => substr(string,start index/offset,end length) Function 
 $country = "Welcome Myanmar";
-echo substr($country,0); //Welcome Myanmar
-echo substr($country,8); //Myanmar
-echo substr($country,0,7); //Welcome
-echo substr($country,0,9); //Welcome M
+echo substr($country,0); //Welcome Myanmar   (index number 0 ကနေစတယ် အဆုံးထိ)
+echo substr($country,8); //Myanmar  (index number 8 ကနေစတယ်)
+echo substr($country,0,7); //Welcome (index number 0 ကနေစတယ် 7 မှာဆုံးတယ်)
+echo substr($country,0,9); //Welcome M   (index number 0 ကနေစတယ် 9 မှာဆုံးတယ်)
 
 // strpos(string, find) Function 
 // strrpos(string, find) Function 

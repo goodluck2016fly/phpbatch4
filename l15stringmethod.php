@@ -24,8 +24,6 @@ echo "<pre>".print_r(str_word_count($text,2),true),"</pre>";;  // <pre>Array ( [
 
 // => ucwords(string) Function 
 // => ucwords(string,delimiters) Function 
-
-
 $country = "welcome to myanmar country,i live in yangon";
 echo ucwords($country); //Welcome To Myanmar Country,i Live In Yangon
 echo ucwords($country,","); //Welcome to myanmar country,I live in yangon

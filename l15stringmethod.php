@@ -45,7 +45,7 @@ echo strtoupper($string); //WELCOME TO MY COUNTRY
 
 // => strtolower(string) Function
 $str = "WELCOME to My Country";
-echo strtolower($string); //welcome to my country
+echo strtolower($str); //welcome to my country
 
 
 // => chunk_split(string,length,delimiter) Function

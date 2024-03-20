@@ -67,21 +67,17 @@ echo substr($country,0,9); //Welcome M   (index number 0 ကနေစတယ် 9
 // stripos(string, find) Function 
 // strripos(string, find) Function 
 
-$captions = "Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum.";
-strpos($captions, "Ipsum"); // 6   (index number) 
-strrpos($captions, "Ipsum"); // 74 (index number) 
-stripos($captions, "Printing"); // 48  (index number) 
-strripos($captions, "Ipsum"); // 74  (index number) 
+$captions = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Ipsum";
+echo strpos($captions, "Ipsum"); // 6     (index number) 
+echo strrpos($captions, "Ipsum"); // 74   (index number) 
+echo stripos($captions, "Printing"); // 40  (index number) (i က case sensitive ကိုပြောချင်တာ)
+echo strripos($captions, "Ipsum"); // 74  (index number) 
 
+// => str_replace(search,replace,string) Function 
+$topic = "Save Myanmar";
+echo str_replace("Myanmar","CRPH",$topic); // Save CRPH
 
-
-
-
-
-
-
-// => str_replace(search,replace,start index) Function 
-// => str_replace(search,replace,start index,end length) Function 
+// => substr_replace(search,replace,start index,end length) Function 
 
 $greeting = "Welcome Myanmar";
 echo substr_replace($greeting,"Hello", 0); // Hello

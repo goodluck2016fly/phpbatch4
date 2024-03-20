@@ -38,15 +38,15 @@ echo ucfirst($message); //Welcome to yangon,i live in tamwe
 $msg = "Welcome to Yangon.I live in tamwe";
 echo lcfirst($msg); // welcome to Yangon.I live in tamwe 
 
+          //string to upper & string to lower
 // => strtoupper(string) Function
 $string = "welcome to my country";
 echo strtoupper($string); //WELCOME TO MY COUNTRY
 
-
-
 // => strtolower(string) Function
 $str = "WELCOME to My Country";
 echo strtolower($string); //welcome to my country
+
 
 // => chunk_split(string,length,delimiter) Function
 $letters = "Myanmar Country";

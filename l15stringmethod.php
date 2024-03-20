@@ -5,7 +5,7 @@
 $words = "Save Myanmer";
 echo strlen($words); //12
 
-
+abcdef
 // => str_word_count(string) Function 
 // => str_word_count(string,return) Function 
 

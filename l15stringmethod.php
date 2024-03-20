@@ -84,16 +84,14 @@ echo substr_replace($greeting,"Hello", 0); // Hello
 echo substr_replace($greeting,"Thailand", 8); // Welcome Thailand
 
 echo substr_replace($greeting,"Hello", 0,0); // HelloWelcome Myanmar
-echo substr_replace($greeting,"Hello", 0,3); // Hellocome Myanmar
-echo substr_replace($greeting,"Hello", 0,7); // Hello Myanmar
-
-
+echo substr_replace($greeting,"Hello", 0,3); // Hellocome Myanmar  (ရှေ့ဆုံး ၃ လုံးနေရာမှာ အစားထိုး)
+echo substr_replace($greeting,"Hello", 0,7); // Hello Myanmar   (ရှေ့ဆုံး ၇ လုံးနေရာမှာ အစားထိုး)
 
 // => trim() Function 
 // => trim(string,characters) Function 
 
 $title = " Welcome to My Country ";
-echo trim($title); //Welcome to My Country 
+echo trim($title); //Welcome to My Country (ဘယ် နဲ့ ညာ ဘက်က space တွေမပါတော့ဘူး) ဖျက်ပေးထား 
 
 $subtitle = "Welcome to My Country";
 echo trim($subtitle,"Wel"); //come to My Country

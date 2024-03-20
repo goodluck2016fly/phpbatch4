@@ -94,9 +94,9 @@ $title = " Welcome to My Country ";
 echo trim($title); //Welcome to My Country (ဘယ် နဲ့ ညာ ဘက်က space တွေမပါတော့ဘူး) ဖျက်ပေးထား 
 
 $subtitle = "Welcome to My Country";
-echo trim($subtitle,"Wel"); //come to My Country
-echo trim($subtitle),"try; //Welcome to My Coun 
-
+echo trim($subtitle,"Wel"); //come to My Country (ဘယ်ဘက်အစွန်ဆုံးနဲ့ ညာဘက်အစွန်ဆုံးကစာတွေပဲဖျက်လို့ရမယ်)
+echo trim($subtitle,"try"); //Welcome to My Coun 
+//password တောင်းရင် space မပါအောင် trim ပေး
 ?>
 
 

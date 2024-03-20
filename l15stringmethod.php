@@ -43,6 +43,7 @@ echo lcfirst($msg); // welcome to Yangon.I live in tamwe
 $string = "welcome to my country";
 echo strtoupper($string); //WELCOME TO MY COUNTRY
 
+// (useful)******
 // => strtolower(string) Function
 $str = "WELCOME to My Country";
 echo strtolower($str); //welcome to my country
@@ -51,7 +52,7 @@ echo strtolower($str); //welcome to my country
 // => chunk_split(string,length,delimiter) Function
 $letters = "Myanmar Country";
 echo chunk_split($letters,1,".") // M.y.a.n.m.a.r. .C.o.u.n.t.r.y
-echo chunk_split($letters,3,"-") // Mya-nma-r C-oun-try
+echo chunk_split($letters,3,"-") // Mya-nma-r C-oun-try-
 
 
 // => substr(string,start index/offset,end length) Function 
